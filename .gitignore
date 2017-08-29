@@ -1,0 +1,41 @@
+#­­­­­­­­­­­­­­­­#
+# Studiospecific
+# ­­­­­­­­­­­­­­­#
+
+.studio/
+flows/
+target/
+*.mflow
+.mule/
+muleproject.xml
+
+#­­­­­­­­­­­­­­­­#
+# Eclipse files
+#­­­­­­­­­­­­­­­­#
+
+.classpath
+.project
+.settings
+/workspace/
+.externalToolBuilders/
+*.launch
+.cproject
+.buildpath
+
+#­­­­­­­­­­­­­­­­#
+# Test remnants
+#­­­­­­­­­­­­­­­­#
+
+objectstore/
+.mule/
+*.log
+temp/
+repository/
+muleEmbeddedDB/
+activemqdata/
+testdir/
+hostkey.ser
+11
+*.h2.db
+catalog/
+activemq-data/
